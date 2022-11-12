@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* RNLumensAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNLumensAssignmentTests.m */; };
+		0105FA4687D44F048D7B8557 /* Hellix-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C32351A50F342859D10A6BE /* Hellix-Medium.ttf */; };
+		0455EFE1337343BD894493A3 /* Hellix-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CBECB05820142B78ED82B6C /* Hellix-LightItalic.ttf */; };
+		04AAE965307041479F54919C /* Hellix-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9833CFE0D680460DA35350EF /* Hellix-Medium.woff */; };
+		06268443291F46BD00D337CE /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 06268442291F46BD00D337CE /* Fonts */; };
+		0B2053C6FD5642D08EEA8BCF /* Hellix-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3728C68D9EBF40FFA4D3312B /* Hellix-Regular.ttf */; };
+		0C4F81B00993451BB92CE70B /* Hellix-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB75C4AC8724377B10A7225 /* Hellix-ExtraBoldItalic.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-RNLumensAssignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNLumensAssignment.a */; };
+		1146C810BB6045A096D52EDB /* Hellix-LightItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 4FFAC5079E344AAEA1B51B86 /* Hellix-LightItalic.eot */; };
+		12ED0D8F7EBD4B14A0A6D652 /* Hellix-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = DDA997013E374EB98363303F /* Hellix-Bold.eot */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13F89FB454EA41B5BDE6C8BD /* Hellix-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D64291C46476297525171 /* Hellix-Regular.eot */; };
+		15BFD87F482D43D8887A6792 /* Hellix-ExtraBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = FC90E9D37E5F47A9901E473B /* Hellix-ExtraBold.eot */; };
+		198565E15B8F4CDF976EAC33 /* Hellix-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A6313A8E35E140BCB549B40A /* Hellix-Medium.woff2 */; };
+		19E6AB7BD5AB4F5398CEB44F /* Hellix-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = CD7A628AB246400E85981780 /* Hellix-MediumItalic.woff */; };
+		1A906495ED9B4721893CF3DC /* Hellix-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = F0726507FDC54EE3A1D23C2F /* Hellix-Light.woff */; };
+		1B040D27197D4B8DBF567C5D /* Hellix-ExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 4BDDEFB087004600B4073B6D /* Hellix-ExtraBold.woff */; };
+		1FF44FE19693427888F600B6 /* Hellix-ExtraBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A047461BAC81425E9D00EA68 /* Hellix-ExtraBold.woff2 */; };
+		221698AC7645479AB64CD2A4 /* Hellix-ExtraBoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = F1F6DA39E09046F5AFF6EEBA /* Hellix-ExtraBoldItalic.woff */; };
+		234EEF60C1CB4B9D919067BF /* Hellix-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 28677FB74D8041B8875660A7 /* Hellix-Bold.woff */; };
+		23B5F82C44BE4E05A544B6E7 /* Hellix-ExtraBoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = B1661FA988C4468C8EF85A3E /* Hellix-ExtraBoldItalic.eot */; };
+		2566F766475E4931B1DDC6CC /* Hellix-SemiBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = E7D707D5EE704970A8B60C06 /* Hellix-SemiBold.eot */; };
+		25BFB154A6CD441182CC41AE /* Hellix-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D63BBF8D498E4C1DA696E415 /* Hellix-Black.ttf */; };
+		2CF160E6FCC04E7E8B9E30FC /* Hellix-MediumItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 790C9F8F00B84067B620E8F2 /* Hellix-MediumItalic.eot */; };
+		3E058A0487474E058E531D10 /* Hellix-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F46BC95B927B489C9F272914 /* Hellix-Light.ttf */; };
+		3E0ED856F66B435294D3EEF8 /* Hellix-RegularItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 19D5BCA792494F6796434FED /* Hellix-RegularItalic.eot */; };
+		48C7574ED4354A86905DFB34 /* Hellix-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC1284625F4771B91509EA /* Hellix-BoldItalic.ttf */; };
+		4AEF01C95A1043178D41552D /* Hellix-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = 283EAF18DB6F466A92B92168 /* Hellix-Light.eot */; };
+		527966337F7049BF9D367879 /* Hellix-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 872B2E1CE5484C118BDC5E24 /* Hellix-Black.woff */; };
+		5E1B539FF008414C8F5791D2 /* Hellix-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58000DCA471341A1BAD80512 /* Hellix-Thin.ttf */; };
+		6D65613739F54702A7867FBF /* Hellix-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 1C19837BEA8240979CE2D110 /* Hellix-Regular.woff */; };
+		721AF4C779F64FFB8F5039F7 /* Hellix-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 57138AE0DFEB41A1A542A4A5 /* Hellix-LightItalic.woff */; };
+		7699B88040F8A987B510C191 /* libPods-RNLumensAssignment-RNLumensAssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNLumensAssignment-RNLumensAssignmentTests.a */; };
+		774C8DC1D10F413DA0B164D2 /* Hellix-SemiBoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0372D5B562294421B2BAC630 /* Hellix-SemiBoldItalic.woff */; };
+		7767934B7C92422D9B9822CA /* Hellix-SemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = E4B6D2E9B0244F79BEF3660E /* Hellix-SemiBold.woff2 */; };
+		78C84A1D35254C8E94AB0A1E /* Hellix-ThinItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C35D8FDE918447F99F1F0779 /* Hellix-ThinItalic.woff2 */; };
+		78CA30F2A77D4396BAAB386C /* Hellix-Thin.eot in Resources */ = {isa = PBXBuildFile; fileRef = BF24F0CA36594343A9FA0AA9 /* Hellix-Thin.eot */; };
+		7FB7A452B6F34247A1A75A0C /* Hellix-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = BE0932F16EFF467CB4068B7C /* Hellix-Thin.woff */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8371A991527A4376B492FE2E /* Hellix-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 69F84F973C1F45CDA941B389 /* Hellix-BoldItalic.woff2 */; };
+		84D6478870364713A4A33966 /* Hellix-RegularItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 0FBD0CDAC77F4DE69ECA164C /* Hellix-RegularItalic.woff2 */; };
+		885907F3B215432D9464ADD2 /* Hellix-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6F86A5968051451895073FDF /* Hellix-Regular.woff2 */; };
+		8DE408C0B05F43919FA8D1ED /* Hellix-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = 4F49BC89C9BF4CA48C3FACE4 /* Hellix-Medium.eot */; };
+		8EA66536EA1342F58F7C8304 /* Hellix-SemiBoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 7A9CD846F86E4C1796959A36 /* Hellix-SemiBoldItalic.woff2 */; };
+		90D54A91AC1445149F37116F /* Hellix-ThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 915CAA7F138D46BA8423E4C3 /* Hellix-ThinItalic.woff */; };
+		98F9A36034274093B41747A4 /* Hellix-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F11334DA8EEC411CBD9CBE08 /* Hellix-SemiBoldItalic.ttf */; };
+		9C255D9A3EA94CC48DA23874 /* Hellix-Black.eot in Resources */ = {isa = PBXBuildFile; fileRef = 75890A3943F24A90BA4DA81C /* Hellix-Black.eot */; };
+		9F97EA5E31D2406FA78C6BD5 /* Hellix-BlackItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6C0E519BA64B4CBFBA32D732 /* Hellix-BlackItalic.woff2 */; };
+		A41149A1019046B7BD8E542A /* Hellix-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7B3A651D3840446A85987AC6 /* Hellix-BoldItalic.woff */; };
+		A56BA57BC1284534B3530A10 /* Hellix-SemiBoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 390A54620EE646B795B6D91F /* Hellix-SemiBoldItalic.eot */; };
+		A728EE8A1E3848D5B6106457 /* Hellix-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3D2CEE1174E4E9EE52DEE /* Hellix-ExtraBold.ttf */; };
+		AB9940BF140A4F44BAC66697 /* Hellix-ThinItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = AA6BE6996FEF4E74B576EA1A /* Hellix-ThinItalic.eot */; };
+		ABFC52B3EBA946C39993BF78 /* Hellix-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5A11C3EC0B6549F490816067 /* Hellix-Thin.woff2 */; };
+		B64FF7BFD6D3456AA4102AD7 /* Hellix-LightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = CC5E7678D34942EA90D725A6 /* Hellix-LightItalic.woff2 */; };
+		B85A41F5B24E46399B3034CC /* Hellix-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6122290B8E5A4C59BB271A38 /* Hellix-MediumItalic.woff2 */; };
+		B8EC5D29AE4546DA9972CD0B /* Hellix-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9EEE6F00C3940539E61952E /* Hellix-BlackItalic.ttf */; };
+		BE727BB9056A4FA2B71DA4EB /* Hellix-ExtraBoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A4FFABDC31F34FF286352F75 /* Hellix-ExtraBoldItalic.woff2 */; };
+		C6299ED170F143E6BCCD438C /* Hellix-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B8358A744458B9008EF6A /* Hellix-Bold.woff2 */; };
+		C8AF53DE83544B3DB5DE7F5A /* Hellix-BoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 270A29AC0E744DA1BBA58E82 /* Hellix-BoldItalic.eot */; };
+		CD58FEBB9F0B4C4E83A82A3E /* Hellix-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D09A29DA41F40A5A9465DD6 /* Hellix-RegularItalic.ttf */; };
+		CFA0B38073D54382B4447DD6 /* Hellix-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13118254B84B4AACB3454F28 /* Hellix-Bold.ttf */; };
+		DEC160C5B7524EE5B17487FE /* Hellix-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = D42C64DCDD5F41A0B65BC412 /* Hellix-BlackItalic.woff */; };
+		E1515F279BEE47779927956E /* Hellix-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC815F6A04764906AF812F3F /* Hellix-ThinItalic.ttf */; };
+		E6B68369F5F34F4284A9476E /* Hellix-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E6972D6EA42F79386049B /* Hellix-Black.woff2 */; };
+		EE17D13DB85D416E8FC4A205 /* Hellix-RegularItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2BAFB4DE75B44EF396DEF9BD /* Hellix-RegularItalic.woff */; };
+		F11E4928DC5445688ADAC2AF /* Hellix-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7BF77565A954FFAACAF36B0 /* Hellix-MediumItalic.ttf */; };
+		F1666FF9DAF84ACA8D9BBFE6 /* Hellix-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6CBF250AA125457B929546DF /* Hellix-Light.woff2 */; };
+		F335A3BE08A348F7952FA133 /* Hellix-SemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7837555AC6234A55ABBA1617 /* Hellix-SemiBold.woff */; };
+		F7B9BC3CB3504627821299CA /* Hellix-BlackItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = E53A011B4B304E818D60C8EE /* Hellix-BlackItalic.eot */; };
+		F8656F8A2F974B67BF135DAD /* Hellix-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B073976ABC184AC8B1475D03 /* Hellix-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = RNLumensAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* RNLumensAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNLumensAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RNLumensAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLumensAssignmentTests.m; sourceTree = "<group>"; };
+		0372D5B562294421B2BAC630 /* Hellix-SemiBoldItalic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-SemiBoldItalic.woff"; path = "../src/assets/fonts/Hellix-SemiBoldItalic.woff"; sourceTree = "<group>"; };
+		06268442291F46BD00D337CE /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
+		0CFC1284625F4771B91509EA /* Hellix-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-BoldItalic.ttf"; path = "../src/assets/fonts/Hellix-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0FBD0CDAC77F4DE69ECA164C /* Hellix-RegularItalic.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-RegularItalic.woff2"; path = "../src/assets/fonts/Hellix-RegularItalic.woff2"; sourceTree = "<group>"; };
+		13118254B84B4AACB3454F28 /* Hellix-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Bold.ttf"; path = "../src/assets/fonts/Hellix-Bold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RNLumensAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNLumensAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNLumensAssignment/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNLumensAssignment/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNLumensAssignment/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNLumensAssignment/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNLumensAssignment/main.m; sourceTree = "<group>"; };
+		19D5BCA792494F6796434FED /* Hellix-RegularItalic.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-RegularItalic.eot"; path = "../src/assets/fonts/Hellix-RegularItalic.eot"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNLumensAssignment-RNLumensAssignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNLumensAssignment-RNLumensAssignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C19837BEA8240979CE2D110 /* Hellix-Regular.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Regular.woff"; path = "../src/assets/fonts/Hellix-Regular.woff"; sourceTree = "<group>"; };
+		270A29AC0E744DA1BBA58E82 /* Hellix-BoldItalic.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-BoldItalic.eot"; path = "../src/assets/fonts/Hellix-BoldItalic.eot"; sourceTree = "<group>"; };
+		283EAF18DB6F466A92B92168 /* Hellix-Light.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Light.eot"; path = "../src/assets/fonts/Hellix-Light.eot"; sourceTree = "<group>"; };
+		28677FB74D8041B8875660A7 /* Hellix-Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Bold.woff"; path = "../src/assets/fonts/Hellix-Bold.woff"; sourceTree = "<group>"; };
+		2BAFB4DE75B44EF396DEF9BD /* Hellix-RegularItalic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-RegularItalic.woff"; path = "../src/assets/fonts/Hellix-RegularItalic.woff"; sourceTree = "<group>"; };
+		3728C68D9EBF40FFA4D3312B /* Hellix-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Regular.ttf"; path = "../src/assets/fonts/Hellix-Regular.ttf"; sourceTree = "<group>"; };
+		390A54620EE646B795B6D91F /* Hellix-SemiBoldItalic.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-SemiBoldItalic.eot"; path = "../src/assets/fonts/Hellix-SemiBoldItalic.eot"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-RNLumensAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNLumensAssignment.debug.xcconfig"; path = "Target Support Files/Pods-RNLumensAssignment/Pods-RNLumensAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		4A6E6972D6EA42F79386049B /* Hellix-Black.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Black.woff2"; path = "../src/assets/fonts/Hellix-Black.woff2"; sourceTree = "<group>"; };
+		4BDDEFB087004600B4073B6D /* Hellix-ExtraBold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ExtraBold.woff"; path = "../src/assets/fonts/Hellix-ExtraBold.woff"; sourceTree = "<group>"; };
+		4F49BC89C9BF4CA48C3FACE4 /* Hellix-Medium.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Medium.eot"; path = "../src/assets/fonts/Hellix-Medium.eot"; sourceTree = "<group>"; };
+		4FFAC5079E344AAEA1B51B86 /* Hellix-LightItalic.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-LightItalic.eot"; path = "../src/assets/fonts/Hellix-LightItalic.eot"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-RNLumensAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNLumensAssignment.release.xcconfig"; path = "Target Support Files/Pods-RNLumensAssignment/Pods-RNLumensAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		57138AE0DFEB41A1A542A4A5 /* Hellix-LightItalic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-LightItalic.woff"; path = "../src/assets/fonts/Hellix-LightItalic.woff"; sourceTree = "<group>"; };
+		58000DCA471341A1BAD80512 /* Hellix-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Thin.ttf"; path = "../src/assets/fonts/Hellix-Thin.ttf"; sourceTree = "<group>"; };
+		5A11C3EC0B6549F490816067 /* Hellix-Thin.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Thin.woff2"; path = "../src/assets/fonts/Hellix-Thin.woff2"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-RNLumensAssignment-RNLumensAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNLumensAssignment-RNLumensAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-RNLumensAssignment-RNLumensAssignmentTests/Pods-RNLumensAssignment-RNLumensAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-RNLumensAssignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNLumensAssignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6122290B8E5A4C59BB271A38 /* Hellix-MediumItalic.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-MediumItalic.woff2"; path = "../src/assets/fonts/Hellix-MediumItalic.woff2"; sourceTree = "<group>"; };
+		62F3D2CEE1174E4E9EE52DEE /* Hellix-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ExtraBold.ttf"; path = "../src/assets/fonts/Hellix-ExtraBold.ttf"; sourceTree = "<group>"; };
+		69F84F973C1F45CDA941B389 /* Hellix-BoldItalic.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-BoldItalic.woff2"; path = "../src/assets/fonts/Hellix-BoldItalic.woff2"; sourceTree = "<group>"; };
+		6C0E519BA64B4CBFBA32D732 /* Hellix-BlackItalic.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-BlackItalic.woff2"; path = "../src/assets/fonts/Hellix-BlackItalic.woff2"; sourceTree = "<group>"; };
+		6CBECB05820142B78ED82B6C /* Hellix-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-LightItalic.ttf"; path = "../src/assets/fonts/Hellix-LightItalic.ttf"; sourceTree = "<group>"; };
+		6CBF250AA125457B929546DF /* Hellix-Light.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Light.woff2"; path = "../src/assets/fonts/Hellix-Light.woff2"; sourceTree = "<group>"; };
+		6F86A5968051451895073FDF /* Hellix-Regular.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Regular.woff2"; path = "../src/assets/fonts/Hellix-Regular.woff2"; sourceTree = "<group>"; };
+		75890A3943F24A90BA4DA81C /* Hellix-Black.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Black.eot"; path = "../src/assets/fonts/Hellix-Black.eot"; sourceTree = "<group>"; };
+		7837555AC6234A55ABBA1617 /* Hellix-SemiBold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-SemiBold.woff"; path = "../src/assets/fonts/Hellix-SemiBold.woff"; sourceTree = "<group>"; };
+		790C9F8F00B84067B620E8F2 /* Hellix-MediumItalic.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-MediumItalic.eot"; path = "../src/assets/fonts/Hellix-MediumItalic.eot"; sourceTree = "<group>"; };
+		7A9CD846F86E4C1796959A36 /* Hellix-SemiBoldItalic.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-SemiBoldItalic.woff2"; path = "../src/assets/fonts/Hellix-SemiBoldItalic.woff2"; sourceTree = "<group>"; };
+		7B3A651D3840446A85987AC6 /* Hellix-BoldItalic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-BoldItalic.woff"; path = "../src/assets/fonts/Hellix-BoldItalic.woff"; sourceTree = "<group>"; };
+		7D09A29DA41F40A5A9465DD6 /* Hellix-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-RegularItalic.ttf"; path = "../src/assets/fonts/Hellix-RegularItalic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNLumensAssignment/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		872B2E1CE5484C118BDC5E24 /* Hellix-Black.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Black.woff"; path = "../src/assets/fonts/Hellix-Black.woff"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-RNLumensAssignment-RNLumensAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNLumensAssignment-RNLumensAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-RNLumensAssignment-RNLumensAssignmentTests/Pods-RNLumensAssignment-RNLumensAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C32351A50F342859D10A6BE /* Hellix-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Medium.ttf"; path = "../src/assets/fonts/Hellix-Medium.ttf"; sourceTree = "<group>"; };
+		8F7B8358A744458B9008EF6A /* Hellix-Bold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Bold.woff2"; path = "../src/assets/fonts/Hellix-Bold.woff2"; sourceTree = "<group>"; };
+		915CAA7F138D46BA8423E4C3 /* Hellix-ThinItalic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ThinItalic.woff"; path = "../src/assets/fonts/Hellix-ThinItalic.woff"; sourceTree = "<group>"; };
+		9833CFE0D680460DA35350EF /* Hellix-Medium.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Medium.woff"; path = "../src/assets/fonts/Hellix-Medium.woff"; sourceTree = "<group>"; };
+		9B0D64291C46476297525171 /* Hellix-Regular.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Regular.eot"; path = "../src/assets/fonts/Hellix-Regular.eot"; sourceTree = "<group>"; };
+		A047461BAC81425E9D00EA68 /* Hellix-ExtraBold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ExtraBold.woff2"; path = "../src/assets/fonts/Hellix-ExtraBold.woff2"; sourceTree = "<group>"; };
+		A4FFABDC31F34FF286352F75 /* Hellix-ExtraBoldItalic.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ExtraBoldItalic.woff2"; path = "../src/assets/fonts/Hellix-ExtraBoldItalic.woff2"; sourceTree = "<group>"; };
+		A6313A8E35E140BCB549B40A /* Hellix-Medium.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Medium.woff2"; path = "../src/assets/fonts/Hellix-Medium.woff2"; sourceTree = "<group>"; };
+		A9EEE6F00C3940539E61952E /* Hellix-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-BlackItalic.ttf"; path = "../src/assets/fonts/Hellix-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AA6BE6996FEF4E74B576EA1A /* Hellix-ThinItalic.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ThinItalic.eot"; path = "../src/assets/fonts/Hellix-ThinItalic.eot"; sourceTree = "<group>"; };
+		AC815F6A04764906AF812F3F /* Hellix-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ThinItalic.ttf"; path = "../src/assets/fonts/Hellix-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B073976ABC184AC8B1475D03 /* Hellix-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-SemiBold.ttf"; path = "../src/assets/fonts/Hellix-SemiBold.ttf"; sourceTree = "<group>"; };
+		B1661FA988C4468C8EF85A3E /* Hellix-ExtraBoldItalic.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ExtraBoldItalic.eot"; path = "../src/assets/fonts/Hellix-ExtraBoldItalic.eot"; sourceTree = "<group>"; };
+		BE0932F16EFF467CB4068B7C /* Hellix-Thin.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Thin.woff"; path = "../src/assets/fonts/Hellix-Thin.woff"; sourceTree = "<group>"; };
+		BF24F0CA36594343A9FA0AA9 /* Hellix-Thin.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Thin.eot"; path = "../src/assets/fonts/Hellix-Thin.eot"; sourceTree = "<group>"; };
+		C35D8FDE918447F99F1F0779 /* Hellix-ThinItalic.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ThinItalic.woff2"; path = "../src/assets/fonts/Hellix-ThinItalic.woff2"; sourceTree = "<group>"; };
+		CC5E7678D34942EA90D725A6 /* Hellix-LightItalic.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-LightItalic.woff2"; path = "../src/assets/fonts/Hellix-LightItalic.woff2"; sourceTree = "<group>"; };
+		CD7A628AB246400E85981780 /* Hellix-MediumItalic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-MediumItalic.woff"; path = "../src/assets/fonts/Hellix-MediumItalic.woff"; sourceTree = "<group>"; };
+		D42C64DCDD5F41A0B65BC412 /* Hellix-BlackItalic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-BlackItalic.woff"; path = "../src/assets/fonts/Hellix-BlackItalic.woff"; sourceTree = "<group>"; };
+		D63BBF8D498E4C1DA696E415 /* Hellix-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Black.ttf"; path = "../src/assets/fonts/Hellix-Black.ttf"; sourceTree = "<group>"; };
+		DDA997013E374EB98363303F /* Hellix-Bold.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Bold.eot"; path = "../src/assets/fonts/Hellix-Bold.eot"; sourceTree = "<group>"; };
+		E4B6D2E9B0244F79BEF3660E /* Hellix-SemiBold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-SemiBold.woff2"; path = "../src/assets/fonts/Hellix-SemiBold.woff2"; sourceTree = "<group>"; };
+		E53A011B4B304E818D60C8EE /* Hellix-BlackItalic.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-BlackItalic.eot"; path = "../src/assets/fonts/Hellix-BlackItalic.eot"; sourceTree = "<group>"; };
+		E7D707D5EE704970A8B60C06 /* Hellix-SemiBold.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-SemiBold.eot"; path = "../src/assets/fonts/Hellix-SemiBold.eot"; sourceTree = "<group>"; };
+		ECB75C4AC8724377B10A7225 /* Hellix-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Hellix-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F0726507FDC54EE3A1D23C2F /* Hellix-Light.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Light.woff"; path = "../src/assets/fonts/Hellix-Light.woff"; sourceTree = "<group>"; };
+		F11334DA8EEC411CBD9CBE08 /* Hellix-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Hellix-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F1F6DA39E09046F5AFF6EEBA /* Hellix-ExtraBoldItalic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ExtraBoldItalic.woff"; path = "../src/assets/fonts/Hellix-ExtraBoldItalic.woff"; sourceTree = "<group>"; };
+		F46BC95B927B489C9F272914 /* Hellix-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-Light.ttf"; path = "../src/assets/fonts/Hellix-Light.ttf"; sourceTree = "<group>"; };
+		F7BF77565A954FFAACAF36B0 /* Hellix-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-MediumItalic.ttf"; path = "../src/assets/fonts/Hellix-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FC90E9D37E5F47A9901E473B /* Hellix-ExtraBold.eot */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Hellix-ExtraBold.eot"; path = "../src/assets/fonts/Hellix-ExtraBold.eot"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-RNLumensAssignment-RNLumensAssignmentTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-RNLumensAssignment.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* RNLumensAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* RNLumensAssignmentTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = RNLumensAssignmentTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* RNLumensAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				06268442291F46BD00D337CE /* Fonts */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = RNLumensAssignment;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-RNLumensAssignment.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNLumensAssignment-RNLumensAssignmentTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BC884A7FDA44FF48B543F6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D63BBF8D498E4C1DA696E415 /* Hellix-Black.ttf */,
+				A9EEE6F00C3940539E61952E /* Hellix-BlackItalic.ttf */,
+				13118254B84B4AACB3454F28 /* Hellix-Bold.ttf */,
+				0CFC1284625F4771B91509EA /* Hellix-BoldItalic.ttf */,
+				62F3D2CEE1174E4E9EE52DEE /* Hellix-ExtraBold.ttf */,
+				ECB75C4AC8724377B10A7225 /* Hellix-ExtraBoldItalic.ttf */,
+				F46BC95B927B489C9F272914 /* Hellix-Light.ttf */,
+				6CBECB05820142B78ED82B6C /* Hellix-LightItalic.ttf */,
+				8C32351A50F342859D10A6BE /* Hellix-Medium.ttf */,
+				F7BF77565A954FFAACAF36B0 /* Hellix-MediumItalic.ttf */,
+				3728C68D9EBF40FFA4D3312B /* Hellix-Regular.ttf */,
+				7D09A29DA41F40A5A9465DD6 /* Hellix-RegularItalic.ttf */,
+				B073976ABC184AC8B1475D03 /* Hellix-SemiBold.ttf */,
+				F11334DA8EEC411CBD9CBE08 /* Hellix-SemiBoldItalic.ttf */,
+				58000DCA471341A1BAD80512 /* Hellix-Thin.ttf */,
+				AC815F6A04764906AF812F3F /* Hellix-ThinItalic.ttf */,
+				75890A3943F24A90BA4DA81C /* Hellix-Black.eot */,
+				872B2E1CE5484C118BDC5E24 /* Hellix-Black.woff */,
+				4A6E6972D6EA42F79386049B /* Hellix-Black.woff2 */,
+				E53A011B4B304E818D60C8EE /* Hellix-BlackItalic.eot */,
+				D42C64DCDD5F41A0B65BC412 /* Hellix-BlackItalic.woff */,
+				6C0E519BA64B4CBFBA32D732 /* Hellix-BlackItalic.woff2 */,
+				DDA997013E374EB98363303F /* Hellix-Bold.eot */,
+				28677FB74D8041B8875660A7 /* Hellix-Bold.woff */,
+				8F7B8358A744458B9008EF6A /* Hellix-Bold.woff2 */,
+				270A29AC0E744DA1BBA58E82 /* Hellix-BoldItalic.eot */,
+				7B3A651D3840446A85987AC6 /* Hellix-BoldItalic.woff */,
+				69F84F973C1F45CDA941B389 /* Hellix-BoldItalic.woff2 */,
+				FC90E9D37E5F47A9901E473B /* Hellix-ExtraBold.eot */,
+				4BDDEFB087004600B4073B6D /* Hellix-ExtraBold.woff */,
+				A047461BAC81425E9D00EA68 /* Hellix-ExtraBold.woff2 */,
+				B1661FA988C4468C8EF85A3E /* Hellix-ExtraBoldItalic.eot */,
+				F1F6DA39E09046F5AFF6EEBA /* Hellix-ExtraBoldItalic.woff */,
+				A4FFABDC31F34FF286352F75 /* Hellix-ExtraBoldItalic.woff2 */,
+				283EAF18DB6F466A92B92168 /* Hellix-Light.eot */,
+				F0726507FDC54EE3A1D23C2F /* Hellix-Light.woff */,
+				6CBF250AA125457B929546DF /* Hellix-Light.woff2 */,
+				4FFAC5079E344AAEA1B51B86 /* Hellix-LightItalic.eot */,
+				57138AE0DFEB41A1A542A4A5 /* Hellix-LightItalic.woff */,
+				CC5E7678D34942EA90D725A6 /* Hellix-LightItalic.woff2 */,
+				4F49BC89C9BF4CA48C3FACE4 /* Hellix-Medium.eot */,
+				9833CFE0D680460DA35350EF /* Hellix-Medium.woff */,
+				A6313A8E35E140BCB549B40A /* Hellix-Medium.woff2 */,
+				790C9F8F00B84067B620E8F2 /* Hellix-MediumItalic.eot */,
+				CD7A628AB246400E85981780 /* Hellix-MediumItalic.woff */,
+				6122290B8E5A4C59BB271A38 /* Hellix-MediumItalic.woff2 */,
+				9B0D64291C46476297525171 /* Hellix-Regular.eot */,
+				1C19837BEA8240979CE2D110 /* Hellix-Regular.woff */,
+				6F86A5968051451895073FDF /* Hellix-Regular.woff2 */,
+				19D5BCA792494F6796434FED /* Hellix-RegularItalic.eot */,
+				2BAFB4DE75B44EF396DEF9BD /* Hellix-RegularItalic.woff */,
+				0FBD0CDAC77F4DE69ECA164C /* Hellix-RegularItalic.woff2 */,
+				E7D707D5EE704970A8B60C06 /* Hellix-SemiBold.eot */,
+				7837555AC6234A55ABBA1617 /* Hellix-SemiBold.woff */,
+				E4B6D2E9B0244F79BEF3660E /* Hellix-SemiBold.woff2 */,
+				390A54620EE646B795B6D91F /* Hellix-SemiBoldItalic.eot */,
+				0372D5B562294421B2BAC630 /* Hellix-SemiBoldItalic.woff */,
+				7A9CD846F86E4C1796959A36 /* Hellix-SemiBoldItalic.woff2 */,
+				BF24F0CA36594343A9FA0AA9 /* Hellix-Thin.eot */,
+				BE0932F16EFF467CB4068B7C /* Hellix-Thin.woff */,
+				5A11C3EC0B6549F490816067 /* Hellix-Thin.woff2 */,
+				AA6BE6996FEF4E74B576EA1A /* Hellix-ThinItalic.eot */,
+				915CAA7F138D46BA8423E4C3 /* Hellix-ThinItalic.woff */,
+				C35D8FDE918447F99F1F0779 /* Hellix-ThinItalic.woff2 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* RNLumensAssignment */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* RNLumensAssignmentTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7BC884A7FDA44FF48B543F6F /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* RNLumensAssignment.app */,
+				00E356EE1AD99517003FC87E /* RNLumensAssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-RNLumensAssignment.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-RNLumensAssignment.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-RNLumensAssignment-RNLumensAssignmentTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-RNLumensAssignment-RNLumensAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* RNLumensAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNLumensAssignmentTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = RNLumensAssignmentTests;
+			productName = RNLumensAssignmentTests;
+			productReference = 00E356EE1AD99517003FC87E /* RNLumensAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* RNLumensAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNLumensAssignment" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNLumensAssignment;
+			productName = RNLumensAssignment;
+			productReference = 13B07F961A680F5B00A75B9A /* RNLumensAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNLumensAssignment" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* RNLumensAssignment */,
+				00E356ED1AD99517003FC87E /* RNLumensAssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				25BFB154A6CD441182CC41AE /* Hellix-Black.ttf in Resources */,
+				B8EC5D29AE4546DA9972CD0B /* Hellix-BlackItalic.ttf in Resources */,
+				CFA0B38073D54382B4447DD6 /* Hellix-Bold.ttf in Resources */,
+				48C7574ED4354A86905DFB34 /* Hellix-BoldItalic.ttf in Resources */,
+				A728EE8A1E3848D5B6106457 /* Hellix-ExtraBold.ttf in Resources */,
+				0C4F81B00993451BB92CE70B /* Hellix-ExtraBoldItalic.ttf in Resources */,
+				3E058A0487474E058E531D10 /* Hellix-Light.ttf in Resources */,
+				0455EFE1337343BD894493A3 /* Hellix-LightItalic.ttf in Resources */,
+				0105FA4687D44F048D7B8557 /* Hellix-Medium.ttf in Resources */,
+				F11E4928DC5445688ADAC2AF /* Hellix-MediumItalic.ttf in Resources */,
+				0B2053C6FD5642D08EEA8BCF /* Hellix-Regular.ttf in Resources */,
+				CD58FEBB9F0B4C4E83A82A3E /* Hellix-RegularItalic.ttf in Resources */,
+				F8656F8A2F974B67BF135DAD /* Hellix-SemiBold.ttf in Resources */,
+				98F9A36034274093B41747A4 /* Hellix-SemiBoldItalic.ttf in Resources */,
+				5E1B539FF008414C8F5791D2 /* Hellix-Thin.ttf in Resources */,
+				E1515F279BEE47779927956E /* Hellix-ThinItalic.ttf in Resources */,
+				9C255D9A3EA94CC48DA23874 /* Hellix-Black.eot in Resources */,
+				527966337F7049BF9D367879 /* Hellix-Black.woff in Resources */,
+				E6B68369F5F34F4284A9476E /* Hellix-Black.woff2 in Resources */,
+				F7B9BC3CB3504627821299CA /* Hellix-BlackItalic.eot in Resources */,
+				DEC160C5B7524EE5B17487FE /* Hellix-BlackItalic.woff in Resources */,
+				9F97EA5E31D2406FA78C6BD5 /* Hellix-BlackItalic.woff2 in Resources */,
+				12ED0D8F7EBD4B14A0A6D652 /* Hellix-Bold.eot in Resources */,
+				234EEF60C1CB4B9D919067BF /* Hellix-Bold.woff in Resources */,
+				C6299ED170F143E6BCCD438C /* Hellix-Bold.woff2 in Resources */,
+				C8AF53DE83544B3DB5DE7F5A /* Hellix-BoldItalic.eot in Resources */,
+				06268443291F46BD00D337CE /* Fonts in Resources */,
+				A41149A1019046B7BD8E542A /* Hellix-BoldItalic.woff in Resources */,
+				8371A991527A4376B492FE2E /* Hellix-BoldItalic.woff2 in Resources */,
+				15BFD87F482D43D8887A6792 /* Hellix-ExtraBold.eot in Resources */,
+				1B040D27197D4B8DBF567C5D /* Hellix-ExtraBold.woff in Resources */,
+				1FF44FE19693427888F600B6 /* Hellix-ExtraBold.woff2 in Resources */,
+				23B5F82C44BE4E05A544B6E7 /* Hellix-ExtraBoldItalic.eot in Resources */,
+				221698AC7645479AB64CD2A4 /* Hellix-ExtraBoldItalic.woff in Resources */,
+				BE727BB9056A4FA2B71DA4EB /* Hellix-ExtraBoldItalic.woff2 in Resources */,
+				4AEF01C95A1043178D41552D /* Hellix-Light.eot in Resources */,
+				1A906495ED9B4721893CF3DC /* Hellix-Light.woff in Resources */,
+				F1666FF9DAF84ACA8D9BBFE6 /* Hellix-Light.woff2 in Resources */,
+				1146C810BB6045A096D52EDB /* Hellix-LightItalic.eot in Resources */,
+				721AF4C779F64FFB8F5039F7 /* Hellix-LightItalic.woff in Resources */,
+				B64FF7BFD6D3456AA4102AD7 /* Hellix-LightItalic.woff2 in Resources */,
+				8DE408C0B05F43919FA8D1ED /* Hellix-Medium.eot in Resources */,
+				04AAE965307041479F54919C /* Hellix-Medium.woff in Resources */,
+				198565E15B8F4CDF976EAC33 /* Hellix-Medium.woff2 in Resources */,
+				2CF160E6FCC04E7E8B9E30FC /* Hellix-MediumItalic.eot in Resources */,
+				19E6AB7BD5AB4F5398CEB44F /* Hellix-MediumItalic.woff in Resources */,
+				B85A41F5B24E46399B3034CC /* Hellix-MediumItalic.woff2 in Resources */,
+				13F89FB454EA41B5BDE6C8BD /* Hellix-Regular.eot in Resources */,
+				6D65613739F54702A7867FBF /* Hellix-Regular.woff in Resources */,
+				885907F3B215432D9464ADD2 /* Hellix-Regular.woff2 in Resources */,
+				3E0ED856F66B435294D3EEF8 /* Hellix-RegularItalic.eot in Resources */,
+				EE17D13DB85D416E8FC4A205 /* Hellix-RegularItalic.woff in Resources */,
+				84D6478870364713A4A33966 /* Hellix-RegularItalic.woff2 in Resources */,
+				2566F766475E4931B1DDC6CC /* Hellix-SemiBold.eot in Resources */,
+				F335A3BE08A348F7952FA133 /* Hellix-SemiBold.woff in Resources */,
+				7767934B7C92422D9B9822CA /* Hellix-SemiBold.woff2 in Resources */,
+				A56BA57BC1284534B3530A10 /* Hellix-SemiBoldItalic.eot in Resources */,
+				774C8DC1D10F413DA0B164D2 /* Hellix-SemiBoldItalic.woff in Resources */,
+				8EA66536EA1342F58F7C8304 /* Hellix-SemiBoldItalic.woff2 in Resources */,
+				78CA30F2A77D4396BAAB386C /* Hellix-Thin.eot in Resources */,
+				7FB7A452B6F34247A1A75A0C /* Hellix-Thin.woff in Resources */,
+				ABFC52B3EBA946C39993BF78 /* Hellix-Thin.woff2 in Resources */,
+				AB9940BF140A4F44BAC66697 /* Hellix-ThinItalic.eot in Resources */,
+				90D54A91AC1445149F37116F /* Hellix-ThinItalic.woff in Resources */,
+				78C84A1D35254C8E94AB0A1E /* Hellix-ThinItalic.woff2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment/Pods-RNLumensAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment/Pods-RNLumensAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment/Pods-RNLumensAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNLumensAssignment-RNLumensAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNLumensAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment-RNLumensAssignmentTests/Pods-RNLumensAssignment-RNLumensAssignmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment-RNLumensAssignmentTests/Pods-RNLumensAssignment-RNLumensAssignmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment-RNLumensAssignmentTests/Pods-RNLumensAssignment-RNLumensAssignmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment/Pods-RNLumensAssignment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment/Pods-RNLumensAssignment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment/Pods-RNLumensAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment-RNLumensAssignmentTests/Pods-RNLumensAssignment-RNLumensAssignmentTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment-RNLumensAssignmentTests/Pods-RNLumensAssignment-RNLumensAssignmentTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNLumensAssignment-RNLumensAssignmentTests/Pods-RNLumensAssignment-RNLumensAssignmentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* RNLumensAssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* RNLumensAssignment */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RNLumensAssignment-RNLumensAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNLumensAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNLumensAssignment.app/RNLumensAssignment";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RNLumensAssignment-RNLumensAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = RNLumensAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNLumensAssignment.app/RNLumensAssignment";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNLumensAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RNLumensAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RNLumensAssignment;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNLumensAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = RNLumensAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RNLumensAssignment;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNLumensAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNLumensAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNLumensAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
